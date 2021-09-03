@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.dto.Flight" table="Flights">
+        <id column="ID" name="id">
+        <generator class="increment" ></generator>
+        </id>
+         <property column="DEP_DATETIME" name="dep_datetime" type="java.util.Date" />   
+         <property column="ARR_DATETIME" name="arr_datetime" type="java.util.Date" />     
+         <property column="PRICE" name="price" type="java.lang.Float" />
+         <property column="STATUS" name="status" type="java.lang.String" />
+         <many-to-one name="Airline" class="com.dto.Airline" column="airline_id" cascade="all"/>
+    </class>
+</hibernate-mapping>

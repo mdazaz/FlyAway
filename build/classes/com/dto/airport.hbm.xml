@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.dto.Airport" table="AIRPORTS">
+        <id column="ID" name="id">
+        <generator class="increment" ></generator>
+        </id>
+         <property column="NAME" name="name" type="java.lang.String" />
+        <property column="CITY" name="city" type="java.lang.String" />
+         <property column="COUNTRY" name="country" type="java.lang.String" />
+          <property column="CODE" name="code" type="java.lang.String" />
+    </class>
+</hibernate-mapping>

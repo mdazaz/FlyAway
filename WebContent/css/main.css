@@ -1,0 +1,118 @@
+body, html {
+    height: 100%;
+}
+
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url("../images/flight-bg2.jpg");
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.error {
+    /*background-color: #FF898D;*/
+    border: 1px solid #000;
+    border-color: coral;
+}
+
+.checkbox-error {
+    color: #FF898D;
+}
+
+    .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      
+      /*--Form Css--*/
+      nav{
+ font-family: 'Poiret One', cursive;
+ 
+}
+h4{
+  font-weight: bold;
+  margin-bottom: 2.5rem;
+}
+.form-wrapper{
+  background: #fff;
+  border-radius: 5px;
+  padding: 50px;
+}
+.form-control, .custom-select{
+  border-radius: 0px;
+      
+
+}
+
+.form-control:focus {
+    /*
+    color: #495057;
+    background-color: #ffffff;
+    border:1px solid #b5b6b3;
+    outline: 0;
+    box-shadow: none;
+    */
+
+}
+
+.btn{
+  background: #3494E6;
+  border: #3494E6;
+  padding: 0.6rem 3rem;
+  font-weight: bold;
+}
+.btn:hover, .btn:focus, .btn:active, .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  background: #3494E6;
+  border: #3494E6;
+  outline: 0;
+}
+
+input,
+button,
+select,
+optgroup,
+textarea {margin:5px;}
+
+.tabing {
+    float: left;
+    width: 100%;
+    background: rgba(0, 130, 185, .8);
+    padding: 0 10px 10px 10px;
+    color: #fff;
+}
+.tabing ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    width: 100%;
+    float: left;
+}
+.tabing ul li {
+    float: left;
+}
+.tabing ul li a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: #fff;
+    background: rgba(0, 130, 185, .9);
+    margin: 0 10px 0 0;
+    padding: 5px 10px 5px 10px;
+    border-radius: 0px 0px 5px 5px;
+    font-size: 16px;
+    text-align: left;
+}
+.tabing ul li a.active {
+    background: #ba0400
+}
